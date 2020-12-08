@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="d-flex flex-row align-items-center bg-white border-bottom py-3 px-5">
+        <a class="navbar-brand mr-auto" href="#">Список задач</a>
+        <a class="btn btn-outline-primary mr-3" href="auth.html">Вход</a>
+        <a class="btn btn-outline-primary" href="reg.html">Регистрация</a>
+    </div>
+    <form class="form-reg-auth mt-5">
+        <h1 class="text-center mb-3">Регистрация</h1>
+        <p class="text-danger text-center" id="error"></p>
+        <p class="text-success text-center" id="success"></p>
+        <input type="text" id="login" class="form-control mb-3" placeholder="Введите логин">
+        <input type="password" id="pass" class="form-control mb-3" placeholder="Введите пароль">
+        <input type="password" id="repeatPass" class="form-control mb-3" placeholder="Введите пароль еще раз">
+        <button class="btn btn-lg btn-primary btn-block" type="button" id="regButton">Зарегистрироваться</button>
+    </form>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/reg.js"></script>
+</body>
+
+</html>

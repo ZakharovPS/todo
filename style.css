@@ -1,0 +1,13 @@
+body {
+  background-color: #f5f5f5;
+}
+
+.form-reg-auth {
+  max-width: 420px;
+  margin: auto;
+}
+
+main{
+  max-width: 630px;
+  margin: auto;
+}
