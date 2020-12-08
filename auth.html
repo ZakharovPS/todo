@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Вход</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="d-flex flex-row align-items-center bg-white border-bottom py-3 px-5">
+        <a class="navbar-brand mr-auto" href="#">Список задач</a>
+        <a class="btn btn-outline-primary mr-3" href="auth.html">Вход</a>
+        <a class="btn btn-outline-primary" href="reg.html">Регистрация</a>
+    </div>
+    <form class="form-reg-auth mt-5">
+        <h1 class="text-center mb-3">Вход</h1>
+        <p class="text-danger text-center" id="error"></p>
+        <p class="text-success text-center" id="success"></p>
+        <input type="text" id="login" class="form-control mb-3" placeholder="Введите логин">
+        <input type="password" id="pass" class="form-control mb-3" placeholder="Введите пароль">
+        <button class="btn btn-lg btn-primary btn-block" type="button" id="authButton">Войти</button>
+    </form>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/auth.js"></script>
+</body>
+
+</html>
